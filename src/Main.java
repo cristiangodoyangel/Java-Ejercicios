@@ -8,27 +8,29 @@ import java.util.Scanner;
 //Escribe un constructor que use this para asignar valores a estos atributos.
 //Crea una clase Main donde crees al menos dos objetos de Persona y los imprimas.
 
-/*
-public class Main {
+//
+/*public class Main {
     public static void main(String[] args) {
         // Crear objetos de la clase Persona y pasarle nombre y edad
         Persona persona1 = new Persona("Juan", 25);
         Persona persona2 = new Persona("Pedro", 42);
 
         // Imprimir los atributos de cada persona
-        System.out.println("Nombre: " + persona1.nombre);
-        System.out.println("Edad: " + persona1.edad);
+        System.out.println("Nombre: " + persona1.getNombre());
 
-        System.out.println("Nombre: " + persona2.nombre);
-        System.out.println("Edad: " + persona2.edad);
+        System.out.println("Edad: " + persona2.nombre);
+
+        persona1.setNombre("Furilango");
+
+        System.out.println("Nombre: " + persona1.getNombre());
+
+        persona1.setNombre("Vuelve a Juan");
+
+        System.out.println("Nombre: " + persona1.getNombre());
     }
-
-
-
-
 }
 
-*************************************************************************
+//*************************************************************************
 
 
      /*   //se utiliza la clase Scanner, usando su metodo escanner, dopnde se captura con System.in
