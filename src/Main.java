@@ -1,8 +1,37 @@
 import java.util.Scanner;
 
+
+//*********************************************************************
+//Ejercicio 1: Constructor con this
+//
+//Crea una clase llamada Persona que tenga dos atributos: nombre y edad.
+//Escribe un constructor que use this para asignar valores a estos atributos.
+//Crea una clase Main donde crees al menos dos objetos de Persona y los imprimas.
+
+/*
 public class Main {
     public static void main(String[] args) {
-    //se utiliza la clase Scanner, usando su metodo escanner, dopnde se captura con System.in
+        // Crear objetos de la clase Persona y pasarle nombre y edad
+        Persona persona1 = new Persona("Juan", 25);
+        Persona persona2 = new Persona("Pedro", 42);
+
+        // Imprimir los atributos de cada persona
+        System.out.println("Nombre: " + persona1.nombre);
+        System.out.println("Edad: " + persona1.edad);
+
+        System.out.println("Nombre: " + persona2.nombre);
+        System.out.println("Edad: " + persona2.edad);
+    }
+
+
+
+
+}
+
+*************************************************************************
+
+
+     /*   //se utiliza la clase Scanner, usando su metodo escanner, dopnde se captura con System.in
     Scanner scanner = new Scanner (System.in);
     // se crea la variable del tipo String "entrada" y se le asigna valor ""
     String entrada ="";
@@ -40,6 +69,5 @@ public class Main {
                 System.out.println("El número es divisible por 4");}
                      else if (numero % 3 == 0 ) {
                      System.out.println("El número es divisible por 3");}}*/
-}
 
-
+//********************************************************************************
